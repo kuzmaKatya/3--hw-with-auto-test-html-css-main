@@ -8,7 +8,7 @@
     outline: 1px solid red; /* чтобы контейнер был виден, в конце можно будет удалить это св-во */
     margin: 0 auto;
     width: 100%;
-    max-width: 1210px;
+    max-width: 1140px;
     /* 📍 Максимальная ширина для контейнера */
 }
 
@@ -44,7 +44,7 @@ header span {
 }
 
 .text-wrapper {
-max-width: 380px;
+max-width: 425px;
     /* 📍 Cвойство для ограничения ширины блока с текстом в первой секции */
 }
 
@@ -70,7 +70,7 @@ max-width: 380px;
 
 .about-section .wrapper {
 
-        gap: 20px;
+        gap: 60px;
  
     /* 📍 Свойствa flexbox для отступов между элементами select, .info-wrapper и .skills-wrapper  */
 }
@@ -116,7 +116,7 @@ select:hover,
 .books-list {
     display: flex;
     flex-direction: column;
-    column-gap: 25px;
+    column-gap: 16px;
     /* 📍 Свойства flexbox для отступов между элементами в списках */
 }
 
@@ -137,6 +137,7 @@ select:hover,
 .skills {
     display: flex;
     flex-direction: column;
+    gap: 20px;
     /* 📍 Свойства flexbox для расположения элементов с классом .label */
 }
 
@@ -204,8 +205,7 @@ th, td {
 footer {
     background-color: rgba(163, 167, 255, 0.3);
     padding: 26px 0;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     /* 📍 Свойство для расположения ссылки горизонтально по центру */
 }
 
